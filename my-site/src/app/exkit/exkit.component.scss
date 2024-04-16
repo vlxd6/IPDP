@@ -1,0 +1,22 @@
+.card {
+    top: 50px;
+    left: 250px;
+    margin: 10px; 
+    
+}
+
+.btn.btn-primary {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+
+  .btn.btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+
+  }

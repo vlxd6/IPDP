@@ -1,0 +1,145 @@
+#body {
+  margin: 0;
+  background-image: url("../../assets/nissanskyline.jpg");
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 105vh;
+}
+
+.nav.nav-pills {
+  background-color: rgb(50, 48, 48);
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav-link.dropdown-toggle {
+  color: rgb(242, 238, 238);
+  font-family: fantasy;
+}
+
+.nav-link.dropdown-toggle:hover {
+  color: rgb(189, 198, 189);
+}
+
+.dropdown-item {
+  background-color: #ffffff;
+  font-family: fantasy;
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(50, 48, 48) !important;
+}
+
+.nav-item.dropdown .nav-link:hover,
+.nav-item.dropdown:hover .nav-link,
+.nav-item.dropdown.show .nav-link,
+.nav-item.dropdown .nav-link:focus {
+  color: rgb(189, 198, 189) !important;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  font-family: fantasy;
+}
+
+button {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 30px;
+  right: 10px;
+  top: 5px;
+  background-color: #333;
+  color: rgb(242, 238, 238);
+  border: 2px solid;
+  border-radius: 15px !important;
+}
+
+button:hover {
+  color: rgb(189, 198, 189);
+}
+
+.form-select option:checked {
+  background-color: #38383d;
+  color: white;
+}
+
+.form-select1 option:checked {
+  background-color: #38383d;
+  color: white;
+}
+
+.form-select2 option:checked {
+  background-color: #38383d;
+  color: white;
+}
+
+.form-select {
+  padding: 8px 8px;
+  font-family: fantasy;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 170px !important;
+  top: 350px;
+  left: 240px;
+  position: fixed;
+  height: 5.4vh;
+}
+
+.form-select1 {
+  padding: 8px 8px;
+  font-family: fantasy;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 170px !important;
+  top: 350px;
+  left: 540px;
+  position: fixed;
+}
+
+.form-select2 {
+  padding: 8px 8px;
+  font-family: fantasy;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 170px !important;
+  top: 350px;
+  left: 840px;
+  position: fixed;
+}
+
+.input-group {
+  padding: 8px 8px;
+  border-radius: 5px;
+  top: 336px;
+  left: 1130px;
+  position: relative;
+  color: #000;
+}
+
+.btn.btn-primary {
+  height: 40px;
+  width: 170px;
+  background-color: #38383d;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: #5d5959;
+  color: #fff;
+}
+
+.btn.btn-primary:active {
+  background-color: #887474 !important;
+  color: #000;
+}
+
+
+

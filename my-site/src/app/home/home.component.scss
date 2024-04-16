@@ -1,0 +1,219 @@
+#body{
+  margin: 0;
+  background-image: url("../../assets/nissanskyline.jpg");
+  background-size:  90% auto;
+  background-repeat: no-repeat;
+  background-position: 80px center;
+  height: 105vh;
+  overflow-x: none;
+  }
+  
+  .form-select option:checked {
+    background-color: #38383d;
+    color: white;
+  }
+  
+  .form-select1 option:checked {
+    background-color: #38383d;
+    color: white;
+  }
+  
+  .form-select2 option:checked {
+    background-color: #38383d;
+    color: white;
+  }
+  
+  .form-select {
+    padding: 8px 8px;
+    font-family: fantasy;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 170px !important;
+    top: 350px;
+    left: 240px;
+    position: relative;
+    height: 5.4vh;
+    
+  }
+  
+  .form-select1{
+    padding: 8px 8px;
+    font-family: fantasy;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 170px !important;
+    top: 310px;
+    left: 540px;
+    position: relative;
+  }
+  
+  .form-select2{
+    padding: 8px 8px;
+    font-family: fantasy;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 170px !important;
+    top: 310px;
+    left: 680px;
+    position: relative;
+  }
+  
+  .input-group {
+    padding: 8px 8px;
+    border-radius: 5px;
+    top: 336px;
+    left: 1130px;
+    position: relative;
+    color: #000;
+  }
+  
+  .btn.btn-primary {
+    height: 40px;
+    width: 170px;
+    top: -72px;
+    background-color: #38383d;
+    border: none;
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: #5d5959;
+    color: #fff;
+  }
+  
+  .btn.btn-primary:active {
+    background-color: #887474 !important;
+    color: #000;
+  }
+  
+  .secondimg {
+    position: relative;
+    top: 600px; 
+    left: 80px; 
+    height: 350px; 
+    width: 650px;
+}
+
+.thirdimg {
+  position: relative;
+  top: 600px; 
+  left: 146px; 
+  height: 350px; 
+  width: 650px;
+}
+
+.spacer {
+  height: 650px;
+}
+
+.firsttext {
+  position: absolute;
+  top: 1000px;
+  right: 1010px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.secondtext {
+  position: absolute;
+  top: 1000px;
+  right: 270px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.shopbutton {
+  position: absolute;
+  top: 900px;
+  left: 40%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 36px;
+  border-radius: 0;
+}
+
+.shopbutton button {
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.salebutton {
+  position: absolute;
+  top: 900px;
+  left: 87%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 36px;
+  border-radius: 0;
+}
+
+.salebutton button {
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.uptodate {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #020202;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.newsletter {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #020202;
+  padding: 10px;
+  text-align: center;
+  color: white; 
+}
+
+.form-control {
+  width: 400px;
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: 40%;
+  background-color: #000;
+  padding-left: 480px;
+  margin-bottom: 5px;
+  padding-bottom: 40px;
+}
+
+.subscribebutton {
+  position: absolute;
+  top: 1214px; 
+  left: 63%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 0;
+}
+
+.subscribebutton button {
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: round($number: 12);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+

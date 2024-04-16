@@ -1,0 +1,57 @@
+.nav.nav-pills {
+    background-color: rgb(50, 48, 48);
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+  }
+  .nav-link.dropdown-toggle{
+    color: rgb(242, 238, 238);
+    font-family: fantasy;
+  }
+  
+  .nav-link.dropdown-toggle:hover{
+    color:rgb(189, 198, 189);
+    
+  }
+  
+  .dropdown-item{
+    background-color: #ffffff;
+    font-family: fantasy;
+  }
+  
+  .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(50, 48, 48) !important;
+  }
+  
+  .nav-item.dropdown .nav-link:hover,
+  .nav-item.dropdown:hover .nav-link,
+  .nav-item.dropdown.show .nav-link,
+  .nav-item.dropdown .nav-link:focus {
+    color: rgb(189, 198, 189) !important;
+  }
+
+  .container{
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    font-family: fantasy;
+    
+  }
+  
+  button{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    right: 10px;
+    top: 5px;
+    position: absolute;
+    background-color: #333;
+    color: rgb(242, 238, 238);
+    border: 2px solid;
+    border-radius: 15px !important;
+  }
+  button:hover{
+    color: rgb(189, 198, 189);
+  }
