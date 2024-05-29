@@ -1,0 +1,30 @@
+<div id="body">
+    <div class="picture">
+        <h5 class="title">{{dataSource.name}}</h5>
+        <img [src]="dataSource.imgsrc" class="image">
+    </div>
+    
+    <div class="del">
+        <h6>⍟ Info:</h6>
+        <p>⌯ Diameter: {{dataSource.diameter}}</p>
+        <p>⌯ Rim width: {{dataSource.rimwidth}}</p>
+        <p>⌯ Material: {{dataSource.material}}</p>
+    </div>
+    
+    <div class="info">
+        <h6 class="delivery">⛟ Delivery by courier</h6>
+        <p  class="delivery">✓ Opening the parcel upon delivery</p>
+        <p  class="delivery">✓ Delivery anywhere in Romania</p>
+        <p  class="delivery">✓ Delivery price: 10€</p>
+        
+    </div>
+    
+    <div class="cart">
+        <h6>{{dataSource.price}}€</h6>
+        <h5>Monthly rate from {{dataSource.rate}}€</h5>
+        <p>Sold and Shipped by: JDM Car Tuning</p>
+        <p>🟢 In stock</p>
+        <button type="button" class="btn btn-dark">BUY NOW</button>
+    </div>       
+    </div>
+    

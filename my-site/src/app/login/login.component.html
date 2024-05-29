@@ -1,0 +1,24 @@
+<div id="body">
+    <div class="container">
+        <div class="text-above-form">
+            <h2>Login</h2>
+        </div>
+        <div class="form">
+            <div class="form-floating mb-3 move-down">
+                <input type="text" [(ngModel)]="loginObj.username" class="form-control" id="floatinginputUsername" placeholder="Enter your username">
+                <label for="floatinginputUsername">Enter your username</label>
+            </div>
+            <div class="form-floating mb-3 move-down">
+                <input type="password" [(ngModel)]="loginObj.password" class="form-control" id="floatingInputPassword" placeholder="Enter your password" name="password" required>
+                <label for="floatingInputPassword">Enter your password</label>
+            </div>
+            <div class="loginbtn">
+                <button type="submit" (click)="onLogin()" class="btn btn-primary move-down wide">Login</button>
+            </div>
+            <div>
+                <p class="register-link">Don't have an account? <a href="/register" target="_blank">Register now!</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+

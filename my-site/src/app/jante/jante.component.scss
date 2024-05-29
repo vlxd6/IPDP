@@ -1,0 +1,53 @@
+#body{
+    height: 100vh;
+    overflow: auto;
+  
+  }
+  
+  .btn.btn-primary {
+      background-color: black;
+      color: white;
+      border-color: black;
+    }
+  
+    .btn.btn-primary:hover {
+      background-color: #333;
+      border-color: #333;
+    }
+   
+    .card {
+      display: grid;
+      top: 100px;
+      
+    }
+  
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 2em;
+      column-gap: 9em;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
+    
+    .card-body{
+      box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+    }
+  
+    .spacer{
+      height: 170px;
+    }
+
+    .cursor-pointer {
+      cursor: pointer;
+  }
+
+  h5{
+    color: black;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  

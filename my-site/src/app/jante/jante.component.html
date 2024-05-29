@@ -1,0 +1,16 @@
+<div id="body">
+    <div class = "cards">
+    <div *ngFor="let car of dataSource" class="card" style="width: 18rem;">
+        <img [src]="car.imgsrc" class="card-img-top">
+        <div class="card-body">
+          <a (click)="goToJante(car.index)" target="_blank">
+            <h5 class="card-title cursor-pointer">{{car.name}}</h5>
+          </a>
+          <p class="card-text">{{car.description}}</p>
+          <a href="" class="btn btn-primary">Add to cart</a>
+        </div>
+    </div>
+    </div>
+    <div class="spacer"></div>
+    </div>
+    

@@ -1,10 +1,15 @@
+<div id="body">
 <div class = "cards">
 <div *ngFor="let car of dataSource" class="card" style="width: 18rem;">
     <img [src]="car.imgsrc" class="card-img-top">
     <div class="card-body">
-      <h5 class="card-title">{{car.name}}</h5>
+      <a  class="title" (click)="goToExkit(car.index)" target="_blank">
+         <h5 class="card-title">{{car.name}}</h5>
+      </a>
       <p class="card-text">{{car.description}}</p>
-      <a href="" class="btn btn-primary">Add to cart</a>
+      <a href="cart" class="btn btn-primary">Add to cart</a>
     </div>
 </div>
+</div>
+<div class="spacer"></div>
 </div>

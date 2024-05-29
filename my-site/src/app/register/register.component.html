@@ -1,0 +1,30 @@
+<div id="body">
+    <div class="container">
+        <div class="text-above-form">
+            <h2>Create account</h2>
+        </div>
+        <div class="form">
+            <div class="form-floating mb-3 move-down">
+                <input type="text" [(ngModel)]="registerObj.username" class="form-control" id="floatinginput" placeholder="Enter your username">
+                <label for="floatinginput">Enter your username</label>
+            </div>
+            <div class="form-floating mb-3 move-down">
+                <input type="email" [(ngModel)]="registerObj.email" class="form-control" id="floatingInputEmail" placeholder="Enter your email">
+                <label for="floatingInputEmail">Enter your email</label>
+            </div>
+            <div class="form-floating mb-3 move-down">
+                <input type="password" [(ngModel)]="registerObj.password" class="form-control" id="floatingInputPassword" placeholder="Enter your password" name="password" required>
+                <label for="floatingInputPassword">Enter your password</label>
+            </div>
+            <div class="loginbtn">
+                <button type="submit" (click)="onRegister()" class="btn btn-primary move-down wide">Create account</button>
+            </div>
+
+            <div>
+                <p class="login-link">Already have an account? <a href="/login" target="_blank">Sign In!</a></p>
+            </div>
+
+        </div>
+    </div>
+</div>
+

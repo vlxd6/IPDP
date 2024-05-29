@@ -1,0 +1,100 @@
+#body {
+    overflow: hidden;
+    background-image: url("../../assets/registerbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 25%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.form {
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: -50px; /* Adjust this value to move the form up */
+}
+
+.form-control{
+    margin-top: -50px;
+}
+
+.form-floating.move-down {
+    margin-top: 80px; /* Adjust this value to move the input fields down */
+}
+
+.btn-primary.wide {
+    width: 100%; /* Adjust the width as needed */
+}
+
+.loginbtn{
+    margin-top: -15px;
+}
+
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #0c0c0c !important;
+    border-color: #0f0f0f !important;
+}
+
+.btn-primary:hover {
+    background-color: #414040 !important;
+    border-color: #454242 !important;
+}
+
+.btn-primary.move-down {
+    margin-top: 30px; /* Adjust this value to move the button down */
+}
+
+.text-above-form {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.text-above-form h2 {
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.register-link a {
+    color: rgb(141, 57, 189); /* Change color as needed */
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+.login-link a {
+    color: rgb(141, 57, 189); /* Change color as needed */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+

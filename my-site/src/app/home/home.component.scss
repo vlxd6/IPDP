@@ -22,6 +22,8 @@
     background-color: #38383d;
     color: white;
   }
+
+  
   
   .form-select {
     padding: 8px 8px;
@@ -69,17 +71,25 @@
     position: relative;
     color: #000;
   }
+
+  .fas.fa-search{
+    color: black;
+    font-family: fantasy;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 100;
+  }
   
   .btn.btn-primary {
     height: 40px;
     width: 170px;
     top: -72px;
-    background-color: #38383d;
+    background-color: white;
     border: none;
   }
   
   .btn.btn-primary:hover {
-    background-color: #5d5959;
+    background-color: #d3d3d3;
     color: #fff;
   }
   
@@ -173,6 +183,7 @@
   padding: 10px;
   text-align: center;
   color: white;
+  
 }
 
 .newsletter {
@@ -201,7 +212,7 @@
 
 .subscribebutton {
   position: absolute;
-  top: 1214px; 
+  top: 1215px; 
   left: 63%;
   transform: translateX(-50%);
   font-weight: bold;
